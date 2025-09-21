@@ -1,0 +1,104 @@
+body {font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: #434455;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2%;}
+
+ul {list-style-type: none;}
+
+a {text-decoration: none;}
+
+.logo {font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;}
+.logo-span {color: #2e2f42;}
+.logo-span-footer {color: #f4f4fd;}
+
+.title {
+    background-color: #2e2f42;
+}
+.title-text {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.button {font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.04em;
+color: #ffffff;
+background-color: #4d5ae5;
+cursor: pointer;}
+.button:hover, .button:focus {background-color: #404bbf;}
+
+.section-list-title {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-p {
+    color:#434455;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team {background-color: #f4f4fd;}
+
+.team-list {background-color: #ffffff;}
+
+.section-title {
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.footer {background-color: #2e2f42;}
+
+.footer-text {
+    color: #f4f4fd;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link {color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.link:hover, .link:focus {color: #404bbf;}
+
+.address {
+    font-style: normal;
+}
+.address-link {
+    color: #434455;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address-link:hover, .address-link:focus {color: #404bbf;
+}
