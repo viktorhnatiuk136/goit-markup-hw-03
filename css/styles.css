@@ -11,10 +11,9 @@ section {padding-top: 120px;
 padding-bottom: 120px;}
 
 .container {
-    max-width: 1158px;
+    width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
-}
+    padding: 0 15px;}
 
 h1, h2, h3, p {margin: 0;}
 
@@ -47,7 +46,7 @@ display: inline-block;}
 .nav-ul {
     display: flex;
     gap: 40px;
-    }
+}
 
 .address-ul {
     display: flex;
