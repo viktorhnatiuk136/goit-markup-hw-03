@@ -48,8 +48,6 @@ display: inline-block;}
     gap: 40px;
     }
 
-.nav-ul li {padding: 24px 0;}
-
 .address-ul {
     display: flex;
     gap: 40px;
@@ -72,7 +70,7 @@ text-transform: uppercase;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-      }
+    padding: 24px 0;}
 
 .link:hover,
 .link:focus {
