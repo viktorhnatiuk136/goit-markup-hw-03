@@ -33,25 +33,17 @@ display: inline-block;}
 .header .container {
     display: flex;
     justify-content: space-between;
-    padding : 0 15px;
     align-items: center;
 }
 
 .nav {
     display: flex;
     align-items: center;
+    gap: 76px;
 }
-.nav .logo {margin-right: 76px;}
 
-.nav-ul {
-    display: flex;
-    gap: 40px;
-    }
-
-.address-ul {
-    display: flex;
-    gap: 40px;
-   }
+.list-inline {display: flex;
+    gap: 40px;}
 
 .logo {font-family: "Raleway", sans-serif;
     color: #4d5ae5;
