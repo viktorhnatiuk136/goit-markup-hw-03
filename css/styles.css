@@ -221,13 +221,12 @@ border-top: none;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 16px;
     max-width: 264px;
     }
 
 .footer .container {display: flex;
 flex-direction: column;}
 
-.footer .container .logo {display: inline-block;
+.footer .container a {display: inline-block;
 margin-bottom: 16px;}
 
