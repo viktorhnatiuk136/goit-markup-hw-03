@@ -222,11 +222,9 @@ border-top: none;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-top: 16px;
     }
 
 .footer .container {display: flex;
 flex-direction: column;}
-
-.footer .container a {display: inline-block;
-margin-bottom: 16px;}
 
