@@ -20,7 +20,8 @@ ul {margin: 0;
     padding-left: 0;
     list-style-type: none;}
 
-img {display: block;}
+img {display: block;
+    width: 100%;}
 
 a {text-decoration: none;
 display: inline-block;}
@@ -53,6 +54,9 @@ text-transform: uppercase;}
 .logo-span {color: #2e2f42;}
 .logo-span-footer {color: #f4f4fd;
 }
+
+.footer .container .logo {display: inline-block;
+margin-bottom: 16px;}
 
 .header .logo {margin-right: 76px;}
 
@@ -91,8 +95,8 @@ text-transform: uppercase;}
     justify-content: center;
     align-items: center;
     gap: 46px;
-    padding: 188px 0;
-}
+    padding: 180px auto;
+    }
 
 .title .container {display: flex;
 flex-direction: column;
@@ -145,13 +149,13 @@ gap: 24px;}
 
 .team {background-color: #f4f4fd;}
 
-.team-list {display: flex;
+.team-descr {display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 32px;
+gap: 8px;
 background-color: #ffffff;
-padding-bottom: 32px;}
+padding: 32px 0;}
 
 .section-title {
     color: #2e2f42;
@@ -169,7 +173,7 @@ gap: 24px;}
 
 .team-items {display: flex;
     flex-direction: column;
-    width: calc((100%-3*24px)/4);
+    width: calc((100% - 72px) / 4);
 background-color: #ffffff;
 border-radius: 0 0 4px 4px;}
 
@@ -181,8 +185,15 @@ row-gap: 48px;
 
 .portfolio-items {display: flex;
     flex-direction: column;
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3);
 }
+
+.portfolio-descr {display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+border-top: none;}
 
 .section-list-title {
     color: #2e2f42;
@@ -190,9 +201,6 @@ row-gap: 48px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
-    margin-bottom: 8px;
-    margin-left: 16px;
     }
 
 .section-p {
@@ -201,9 +209,8 @@ row-gap: 48px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 0;
-    margin-left: 16px;
-}
+        }
+    
 .footer {background-color: #2e2f42;
     padding: 100px 0;}
 
