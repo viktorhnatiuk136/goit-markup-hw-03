@@ -56,8 +56,6 @@ margin-top: 24px;
 margin-bottom: 24px;
 }
 .logo-span {color: #2e2f42;}
-.logo-span-footer {color: #f4f4fd;
-}
 
 .header .logo {margin-right: 76px;}
 
@@ -226,15 +224,16 @@ border-top: none;}
     flex-direction: column;
 }
 
-.footer-logo {
-    font-family: "Raleway", sans-serif;
+.footer .container .footer-logo {display: inline-block;
+text-decoration: none;}
+
+.footer-logo {font-family: "Raleway", sans-serif;
     color: #4d5ae5;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
     margin-bottom: 16px;
 }
 .footer-logo-span {
